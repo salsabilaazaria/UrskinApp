@@ -1,0 +1,465 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ResultViewController"
+provides-nominal:
+- "16urskinappProject20ResultViewControllerC"
+provides-member:
+- ["16urskinappProject20ResultViewControllerC", ""]
+provides-dynamic-lookup:
+- "ResultLabel"
+- "desc"
+- "descing1"
+- "descing2"
+- "ingredient"
+- "ingredient1"
+- "ingredient2"
+- "ingredientname"
+- "productcollectionview"
+- "skinproblem"
+- "skintype"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "ResultViewController"
+- "StringLiteralType"
+- "UICollectionView"
+- "UILabel"
+- "UIViewController"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["SK", "subscript"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "ResultLabel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "desc"]
+- !private ["s7CVarArgP", "descing1"]
+- !private ["s7CVarArgP", "descing2"]
+- !private ["s7CVarArgP", "ingredient"]
+- !private ["s7CVarArgP", "ingredient1"]
+- !private ["s7CVarArgP", "ingredient2"]
+- !private ["s7CVarArgP", "ingredientname"]
+- !private ["s7CVarArgP", "skinproblem"]
+- !private ["s7CVarArgP", "skintype"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "ResultLabel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "desc"]
+- !private ["s28CustomDebugStringConvertibleP", "descing1"]
+- !private ["s28CustomDebugStringConvertibleP", "descing2"]
+- !private ["s28CustomDebugStringConvertibleP", "ingredient"]
+- !private ["s28CustomDebugStringConvertibleP", "ingredient1"]
+- !private ["s28CustomDebugStringConvertibleP", "ingredient2"]
+- !private ["s28CustomDebugStringConvertibleP", "ingredientname"]
+- !private ["s28CustomDebugStringConvertibleP", "skinproblem"]
+- !private ["s28CustomDebugStringConvertibleP", "skintype"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "ResultLabel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "desc"]
+- !private ["s23CustomStringConvertibleP", "descing1"]
+- !private ["s23CustomStringConvertibleP", "descing2"]
+- !private ["s23CustomStringConvertibleP", "ingredient"]
+- !private ["s23CustomStringConvertibleP", "ingredient1"]
+- !private ["s23CustomStringConvertibleP", "ingredient2"]
+- !private ["s23CustomStringConvertibleP", "ingredientname"]
+- !private ["s23CustomStringConvertibleP", "skinproblem"]
+- !private ["s23CustomStringConvertibleP", "skintype"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "subscript"]
+- !private ["Se", "text"]
+- !private ["SE", "subscript"]
+- !private ["SE", "text"]
+- !private ["SQ", "ResultLabel"]
+- ["SQ", ""]
+- !private ["SQ", "desc"]
+- !private ["SQ", "descing1"]
+- !private ["SQ", "descing2"]
+- !private ["SQ", "ingredient"]
+- !private ["SQ", "ingredient1"]
+- !private ["SQ", "ingredient2"]
+- !private ["SQ", "ingredientname"]
+- !private ["SQ", "skinproblem"]
+- !private ["SQ", "skintype"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "text"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["SH", "ResultLabel"]
+- ["SH", ""]
+- !private ["SH", "desc"]
+- !private ["SH", "descing1"]
+- !private ["SH", "descing2"]
+- !private ["SH", "ingredient"]
+- !private ["SH", "ingredient1"]
+- !private ["SH", "ingredient2"]
+- !private ["SH", "ingredientname"]
+- !private ["SH", "skinproblem"]
+- !private ["SH", "skintype"]
+- !private ["SH", "subscript"]
+- !private ["SH", "text"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "ResultLabel"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "desc"]
+- !private ["So8NSCodingP", "descing1"]
+- !private ["So8NSCodingP", "descing2"]
+- !private ["So8NSCodingP", "ingredient"]
+- !private ["So8NSCodingP", "ingredient1"]
+- !private ["So8NSCodingP", "ingredient2"]
+- !private ["So8NSCodingP", "ingredientname"]
+- !private ["So8NSCodingP", "skinproblem"]
+- !private ["So8NSCodingP", "skintype"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "ResultLabel"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "desc"]
+- !private ["So26NSExtensionRequestHandlingP", "descing1"]
+- !private ["So26NSExtensionRequestHandlingP", "descing2"]
+- !private ["So26NSExtensionRequestHandlingP", "ingredient"]
+- !private ["So26NSExtensionRequestHandlingP", "ingredient1"]
+- !private ["So26NSExtensionRequestHandlingP", "ingredient2"]
+- !private ["So26NSExtensionRequestHandlingP", "ingredientname"]
+- !private ["So26NSExtensionRequestHandlingP", "skinproblem"]
+- !private ["So26NSExtensionRequestHandlingP", "skintype"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "ResultLabel"]
+- ["So8NSObjectC", "UICollectionView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "desc"]
+- ["So8NSObjectC", "descing1"]
+- ["So8NSObjectC", "descing2"]
+- ["So8NSObjectC", "ingredient"]
+- ["So8NSObjectC", "ingredient1"]
+- ["So8NSObjectC", "ingredient2"]
+- ["So8NSObjectC", "ingredientname"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "productcollectionview"]
+- ["So8NSObjectC", "skinproblem"]
+- ["So8NSObjectC", "skintype"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "ResultLabel"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "desc"]
+- !private ["So8NSObjectP", "descing1"]
+- !private ["So8NSObjectP", "descing2"]
+- !private ["So8NSObjectP", "ingredient"]
+- !private ["So8NSObjectP", "ingredient1"]
+- !private ["So8NSObjectP", "ingredient2"]
+- !private ["So8NSObjectP", "ingredientname"]
+- !private ["So8NSObjectP", "skinproblem"]
+- !private ["So8NSObjectP", "skintype"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "text"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "subscript"]
+- ["16urskinappProject20ResultViewControllerC", "ResultLabel"]
+- ["16urskinappProject20ResultViewControllerC", "UICollectionView"]
+- ["16urskinappProject20ResultViewControllerC", "UILabel"]
+- ["16urskinappProject20ResultViewControllerC", "deinit"]
+- ["16urskinappProject20ResultViewControllerC", "desc"]
+- ["16urskinappProject20ResultViewControllerC", "descing1"]
+- ["16urskinappProject20ResultViewControllerC", "descing2"]
+- ["16urskinappProject20ResultViewControllerC", "ingredient"]
+- ["16urskinappProject20ResultViewControllerC", "ingredient1"]
+- ["16urskinappProject20ResultViewControllerC", "ingredient2"]
+- ["16urskinappProject20ResultViewControllerC", "ingredientname"]
+- ["16urskinappProject20ResultViewControllerC", "init"]
+- ["16urskinappProject20ResultViewControllerC", "productcollectionview"]
+- ["16urskinappProject20ResultViewControllerC", "skinproblem"]
+- ["16urskinappProject20ResultViewControllerC", "skintype"]
+- ["16urskinappProject20ResultViewControllerC", "viewDidLoad"]
+- !private ["ST", "subscript"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "ResultLabel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "desc"]
+- !private ["So21UIAppearanceContainerP", "descing1"]
+- !private ["So21UIAppearanceContainerP", "descing2"]
+- !private ["So21UIAppearanceContainerP", "ingredient"]
+- !private ["So21UIAppearanceContainerP", "ingredient1"]
+- !private ["So21UIAppearanceContainerP", "ingredient2"]
+- !private ["So21UIAppearanceContainerP", "ingredientname"]
+- !private ["So21UIAppearanceContainerP", "skinproblem"]
+- !private ["So21UIAppearanceContainerP", "skintype"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "ResultLabel"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "desc"]
+- !private ["So18UIContentContainerP", "descing1"]
+- !private ["So18UIContentContainerP", "descing2"]
+- !private ["So18UIContentContainerP", "ingredient"]
+- !private ["So18UIContentContainerP", "ingredient1"]
+- !private ["So18UIContentContainerP", "ingredient2"]
+- !private ["So18UIContentContainerP", "ingredientname"]
+- !private ["So18UIContentContainerP", "skinproblem"]
+- !private ["So18UIContentContainerP", "skintype"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "ResultLabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "desc"]
+- !private ["So18UIFocusEnvironmentP", "descing1"]
+- !private ["So18UIFocusEnvironmentP", "descing2"]
+- !private ["So18UIFocusEnvironmentP", "ingredient"]
+- !private ["So18UIFocusEnvironmentP", "ingredient1"]
+- !private ["So18UIFocusEnvironmentP", "ingredient2"]
+- !private ["So18UIFocusEnvironmentP", "ingredientname"]
+- !private ["So18UIFocusEnvironmentP", "skinproblem"]
+- !private ["So18UIFocusEnvironmentP", "skintype"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "ResultLabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "desc"]
+- !private ["So30UIPasteConfigurationSupportingP", "descing1"]
+- !private ["So30UIPasteConfigurationSupportingP", "descing2"]
+- !private ["So30UIPasteConfigurationSupportingP", "ingredient"]
+- !private ["So30UIPasteConfigurationSupportingP", "ingredient1"]
+- !private ["So30UIPasteConfigurationSupportingP", "ingredient2"]
+- !private ["So30UIPasteConfigurationSupportingP", "ingredientname"]
+- !private ["So30UIPasteConfigurationSupportingP", "skinproblem"]
+- !private ["So30UIPasteConfigurationSupportingP", "skintype"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "ResultLabel"]
+- ["So11UIResponderC", "UICollectionView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "desc"]
+- ["So11UIResponderC", "descing1"]
+- ["So11UIResponderC", "descing2"]
+- ["So11UIResponderC", "ingredient"]
+- ["So11UIResponderC", "ingredient1"]
+- ["So11UIResponderC", "ingredient2"]
+- ["So11UIResponderC", "ingredientname"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "productcollectionview"]
+- ["So11UIResponderC", "skinproblem"]
+- ["So11UIResponderC", "skintype"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "ResultLabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "desc"]
+- !private ["So30UIResponderStandardEditActionsP", "descing1"]
+- !private ["So30UIResponderStandardEditActionsP", "descing2"]
+- !private ["So30UIResponderStandardEditActionsP", "ingredient"]
+- !private ["So30UIResponderStandardEditActionsP", "ingredient1"]
+- !private ["So30UIResponderStandardEditActionsP", "ingredient2"]
+- !private ["So30UIResponderStandardEditActionsP", "ingredientname"]
+- !private ["So30UIResponderStandardEditActionsP", "skinproblem"]
+- !private ["So30UIResponderStandardEditActionsP", "skintype"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "ResultLabel"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "desc"]
+- !private ["So16UIStateRestoringP", "descing1"]
+- !private ["So16UIStateRestoringP", "descing2"]
+- !private ["So16UIStateRestoringP", "ingredient"]
+- !private ["So16UIStateRestoringP", "ingredient1"]
+- !private ["So16UIStateRestoringP", "ingredient2"]
+- !private ["So16UIStateRestoringP", "ingredientname"]
+- !private ["So16UIStateRestoringP", "skinproblem"]
+- !private ["So16UIStateRestoringP", "skintype"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "ResultLabel"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "desc"]
+- !private ["So18UITraitEnvironmentP", "descing1"]
+- !private ["So18UITraitEnvironmentP", "descing2"]
+- !private ["So18UITraitEnvironmentP", "ingredient"]
+- !private ["So18UITraitEnvironmentP", "ingredient1"]
+- !private ["So18UITraitEnvironmentP", "ingredient2"]
+- !private ["So18UITraitEnvironmentP", "ingredientname"]
+- !private ["So18UITraitEnvironmentP", "skinproblem"]
+- !private ["So18UITraitEnvironmentP", "skintype"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "ResultLabel"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "desc"]
+- !private ["So23UIUserActivityRestoringP", "descing1"]
+- !private ["So23UIUserActivityRestoringP", "descing2"]
+- !private ["So23UIUserActivityRestoringP", "ingredient"]
+- !private ["So23UIUserActivityRestoringP", "ingredient1"]
+- !private ["So23UIUserActivityRestoringP", "ingredient2"]
+- !private ["So23UIUserActivityRestoringP", "ingredientname"]
+- !private ["So23UIUserActivityRestoringP", "skinproblem"]
+- !private ["So23UIUserActivityRestoringP", "skintype"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "ResultLabel"]
+- ["So16UIViewControllerC", "UICollectionView"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "desc"]
+- ["So16UIViewControllerC", "descing1"]
+- ["So16UIViewControllerC", "descing2"]
+- ["So16UIViewControllerC", "ingredient"]
+- ["So16UIViewControllerC", "ingredient1"]
+- ["So16UIViewControllerC", "ingredient2"]
+- ["So16UIViewControllerC", "ingredientname"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "productcollectionview"]
+- ["So16UIViewControllerC", "skinproblem"]
+- ["So16UIViewControllerC", "skintype"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ResultLabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "desc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descing1"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descing2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ingredient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ingredient1"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ingredient2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ingredientname"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "skinproblem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "skintype"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ResultLabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "desc"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "descing1"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "descing2"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ingredient"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ingredient1"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ingredient2"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ingredientname"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "skinproblem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "skintype"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "16urskinappProject20ResultViewControllerC"
+- !private "ST"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreML.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "778801e733ff16182dc986ad0ca8707a"

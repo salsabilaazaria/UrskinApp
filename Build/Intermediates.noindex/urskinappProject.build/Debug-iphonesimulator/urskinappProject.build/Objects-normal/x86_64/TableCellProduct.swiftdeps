@@ -1,0 +1,350 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TableCellProduct"
+provides-nominal:
+- "16urskinappProject16TableCellProductC"
+provides-member:
+- ["16urskinappProject16TableCellProductC", ""]
+provides-dynamic-lookup:
+- "productdesc"
+- "productname"
+- "productphoto"
+- "setproduct"
+- "starrate"
+depends-top-level:
+- "AssignmentPrecedence"
+- "TableCellProduct"
+- "UIImageView"
+- "UILabel"
+- "UITableViewCell"
+- "product"
+depends-member:
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "productdesc"]
+- !private ["So15CALayerDelegateP", "productname"]
+- !private ["So15CALayerDelegateP", "productphoto"]
+- !private ["So15CALayerDelegateP", "starrate"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "productdesc"]
+- !private ["s7CVarArgP", "productname"]
+- !private ["s7CVarArgP", "productphoto"]
+- !private ["s7CVarArgP", "starrate"]
+- !private ["s7CVarArgP", "text"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "productdesc"]
+- !private ["s28CustomDebugStringConvertibleP", "productname"]
+- !private ["s28CustomDebugStringConvertibleP", "productphoto"]
+- !private ["s28CustomDebugStringConvertibleP", "starrate"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s17CustomReflectableP", "image"]
+- !private ["s17CustomReflectableP", "text"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "productdesc"]
+- !private ["s23CustomStringConvertibleP", "productname"]
+- !private ["s23CustomStringConvertibleP", "productphoto"]
+- !private ["s23CustomStringConvertibleP", "starrate"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["Se", "image"]
+- !private ["Se", "text"]
+- !private ["SE", "image"]
+- !private ["SE", "text"]
+- ["SQ", ""]
+- !private ["SQ", "image"]
+- !private ["SQ", "productdesc"]
+- !private ["SQ", "productname"]
+- !private ["SQ", "productphoto"]
+- !private ["SQ", "starrate"]
+- !private ["SQ", "text"]
+- !private ["s23ExpressibleByNilLiteralP", "image"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- ["SH", ""]
+- !private ["SH", "image"]
+- !private ["SH", "productdesc"]
+- !private ["SH", "productname"]
+- !private ["SH", "productphoto"]
+- !private ["SH", "starrate"]
+- !private ["SH", "text"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "productdesc"]
+- !private ["So8NSCodingP", "productname"]
+- !private ["So8NSCodingP", "productphoto"]
+- !private ["So8NSCodingP", "starrate"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "product"]
+- ["So8NSObjectC", "productdesc"]
+- ["So8NSObjectC", "productname"]
+- ["So8NSObjectC", "productphoto"]
+- ["So8NSObjectC", "setproduct"]
+- ["So8NSObjectC", "starrate"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "productdesc"]
+- !private ["So8NSObjectP", "productname"]
+- !private ["So8NSObjectP", "productphoto"]
+- !private ["So8NSObjectP", "starrate"]
+- !private ["So8NSObjectP", "text"]
+- !private ["Sq", "image"]
+- !private ["Sq", "text"]
+- ["16urskinappProject16TableCellProductC", "UIImageView"]
+- ["16urskinappProject16TableCellProductC", "UILabel"]
+- ["16urskinappProject16TableCellProductC", "deinit"]
+- ["16urskinappProject16TableCellProductC", "init"]
+- ["16urskinappProject16TableCellProductC", "product"]
+- ["16urskinappProject16TableCellProductC", "productdesc"]
+- ["16urskinappProject16TableCellProductC", "productname"]
+- ["16urskinappProject16TableCellProductC", "productphoto"]
+- ["16urskinappProject16TableCellProductC", "setproduct"]
+- ["16urskinappProject16TableCellProductC", "starrate"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "productdesc"]
+- !private ["So29UIAccessibilityIdentificationP", "productname"]
+- !private ["So29UIAccessibilityIdentificationP", "productphoto"]
+- !private ["So29UIAccessibilityIdentificationP", "starrate"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "productdesc"]
+- !private ["So12UIAppearanceP", "productname"]
+- !private ["So12UIAppearanceP", "productphoto"]
+- !private ["So12UIAppearanceP", "starrate"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "productdesc"]
+- !private ["So21UIAppearanceContainerP", "productname"]
+- !private ["So21UIAppearanceContainerP", "productphoto"]
+- !private ["So21UIAppearanceContainerP", "starrate"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "productdesc"]
+- !private ["So17UICoordinateSpaceP", "productname"]
+- !private ["So17UICoordinateSpaceP", "productphoto"]
+- !private ["So17UICoordinateSpaceP", "starrate"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "productdesc"]
+- !private ["So13UIDynamicItemP", "productname"]
+- !private ["So13UIDynamicItemP", "productphoto"]
+- !private ["So13UIDynamicItemP", "starrate"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "productdesc"]
+- !private ["So18UIFocusEnvironmentP", "productname"]
+- !private ["So18UIFocusEnvironmentP", "productphoto"]
+- !private ["So18UIFocusEnvironmentP", "starrate"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "productdesc"]
+- !private ["So11UIFocusItemP", "productname"]
+- !private ["So11UIFocusItemP", "productphoto"]
+- !private ["So11UIFocusItemP", "starrate"]
+- !private ["So11UIFocusItemP", "text"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "image"]
+- !private ["So20UIFocusItemContainerP", "productdesc"]
+- !private ["So20UIFocusItemContainerP", "productname"]
+- !private ["So20UIFocusItemContainerP", "productphoto"]
+- !private ["So20UIFocusItemContainerP", "starrate"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "productdesc"]
+- !private ["So27UIGestureRecognizerDelegateP", "productname"]
+- !private ["So27UIGestureRecognizerDelegateP", "productphoto"]
+- !private ["So27UIGestureRecognizerDelegateP", "starrate"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So7UILabelC", "text"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- !private ["So24UILargeContentViewerItemP", "productdesc"]
+- !private ["So24UILargeContentViewerItemP", "productname"]
+- !private ["So24UILargeContentViewerItemP", "productphoto"]
+- !private ["So24UILargeContentViewerItemP", "starrate"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "productdesc"]
+- !private ["So30UIPasteConfigurationSupportingP", "productname"]
+- !private ["So30UIPasteConfigurationSupportingP", "productphoto"]
+- !private ["So30UIPasteConfigurationSupportingP", "starrate"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "product"]
+- ["So11UIResponderC", "productdesc"]
+- ["So11UIResponderC", "productname"]
+- ["So11UIResponderC", "productphoto"]
+- ["So11UIResponderC", "setproduct"]
+- ["So11UIResponderC", "starrate"]
+- !private ["So11UIResponderC", "text"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "productdesc"]
+- !private ["So30UIResponderStandardEditActionsP", "productname"]
+- !private ["So30UIResponderStandardEditActionsP", "productphoto"]
+- !private ["So30UIResponderStandardEditActionsP", "starrate"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "product"]
+- ["So15UITableViewCellC", "productdesc"]
+- ["So15UITableViewCellC", "productname"]
+- ["So15UITableViewCellC", "productphoto"]
+- ["So15UITableViewCellC", "setproduct"]
+- ["So15UITableViewCellC", "starrate"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "productdesc"]
+- !private ["So18UITraitEnvironmentP", "productname"]
+- !private ["So18UITraitEnvironmentP", "productphoto"]
+- !private ["So18UITraitEnvironmentP", "starrate"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- !private ["So23UIUserActivityRestoringP", "productdesc"]
+- !private ["So23UIUserActivityRestoringP", "productname"]
+- !private ["So23UIUserActivityRestoringP", "productphoto"]
+- !private ["So23UIUserActivityRestoringP", "starrate"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "product"]
+- ["So6UIViewC", "productdesc"]
+- ["So6UIViewC", "productname"]
+- ["So6UIViewC", "productphoto"]
+- ["So6UIViewC", "setproduct"]
+- ["So6UIViewC", "starrate"]
+- !private ["So6UIViewC", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "productdesc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "productname"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "productphoto"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "starrate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "productdesc"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "productname"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "productphoto"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "starrate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "image"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "productdesc"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "productname"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "productphoto"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "starrate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["16urskinappProject7productC", "desc"]
+- !private ["16urskinappProject7productC", "image"]
+- !private ["16urskinappProject7productC", "rate"]
+- !private ["16urskinappProject7productC", "title"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- "16urskinappProject16TableCellProductC"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+- !private "16urskinappProject7productC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreML.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "527548af26847ca85b531b4df7772f93"

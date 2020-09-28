@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "53c6bc44ea6af9b7cb7feb692064ce36"
+build_time: [1588052313, 96818000]
+inputs:
+  "/Users/salsabilaazaria/Documents/urskin/urskin/urskinappProject/chatpage/MessagesViewController.swift": [1588052308, 279821074]

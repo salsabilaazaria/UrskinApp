@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hpg-jJ-eUh">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="YuX-Cd-jCa">
+            <objects>
+                <viewController id="xYe-NF-Fea" customClass="ViewController" customModule="urskinappProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j6t-Tb-vVc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="identifyingskintypebg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xSw-vg-eTZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you have any dry pacthes ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yc0-0c-LzB">
+                                <rect key="frame" x="43" y="240" width="329" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBH-KF-GyX">
+                                <rect key="frame" x="104" y="339" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="I have it all over my face"/>
+                                <connections>
+                                    <action selector="ManyDrypacthes:" destination="xYe-NF-Fea" eventType="touchUpInside" id="DCp-Qz-RSM"/>
+                                    <action selector="ManyDrypatches:" destination="xZ1-MU-7Nr" eventType="touchUpInside" id="xyr-j9-SB8"/>
+                                    <segue destination="Toj-Gb-T1A" kind="show" id="OO1-3D-1SY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdt-wM-5aZ">
+                                <rect key="frame" x="104" y="399" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="In some area"/>
+                                <connections>
+                                    <action selector="SomeDrypacthes:" destination="xZ1-MU-7Nr" eventType="touchUpInside" id="WGF-Cc-RIe"/>
+                                    <action selector="SomeDrypatches:" destination="xYe-NF-Fea" eventType="touchUpInside" id="XSG-ZV-iRu"/>
+                                    <segue destination="Toj-Gb-T1A" kind="show" id="UX5-wf-OhN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xl-ND-7JI">
+                                <rect key="frame" x="104" y="457" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="I don't have it"/>
+                                <connections>
+                                    <action selector="NopeDryPatches:" destination="xZ1-MU-7Nr" eventType="touchUpInside" id="ahP-7f-hwe"/>
+                                    <action selector="NopeDrypatches:" destination="xYe-NF-Fea" eventType="touchUpInside" id="Ll7-vY-fkk"/>
+                                    <segue destination="Toj-Gb-T1A" kind="show" id="oZp-uc-NKC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95947402719999997" green="0.90338462590000002" blue="0.81959426400000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="eoS-g0-pDu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pkr-Qk-y35"/>
+                </viewController>
+                <exit id="xZ1-MU-7Nr" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BFo-db-zdl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4023.188405797102" y="248.4375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NLC-Zk-b0l">
+            <objects>
+                <viewController id="BPD-GW-UHw" customClass="ViewController" customModule="urskinappProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f0b-hb-Fgr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="identifyingskintypebg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="meF-Bk-4La">
+                                <rect key="frame" x="-74" y="-63" width="538" height="904"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ds-3S-sUf">
+                                <rect key="frame" x="52" y="212" width="311" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">When trying new product or 
+going to different climate, do 
+your skin get irritated?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MdY-3p-tde">
+                                <rect key="frame" x="104" y="339" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Yes, all the time, it sucks."/>
+                                <connections>
+                                    <action selector="EasilyIritated:" destination="LFD-5B-9lu" eventType="touchUpInside" id="ACQ-cQ-enV"/>
+                                    <action selector="EasilyIritated:" destination="BPD-GW-UHw" eventType="touchUpInside" id="ZYT-2d-rQI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaY-Gn-3Ra">
+                                <rect key="frame" x="104" y="399" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Sometimes"/>
+                                <connections>
+                                    <action selector="SometimesIritated:" destination="LFD-5B-9lu" eventType="touchUpInside" id="Hcs-HF-jSa"/>
+                                    <action selector="SometimesIritated:" destination="BPD-GW-UHw" eventType="touchUpInside" id="l71-dR-BgT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leG-sl-9dB">
+                                <rect key="frame" x="104" y="462" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Nope"/>
+                                <connections>
+                                    <action selector="NeverIritated:" destination="LFD-5B-9lu" eventType="touchUpInside" id="2jv-fD-6Id"/>
+                                    <action selector="NeverIritated:" destination="BPD-GW-UHw" eventType="touchUpInside" id="55f-2F-vAs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sn2-i1-W1z">
+                                <rect key="frame" x="144" y="604" width="126" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SEE MY RESULT &gt;">
+                                    <color key="titleColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="GoToResult:" destination="BPD-GW-UHw" eventType="touchUpInside" id="3eN-GU-0qj"/>
+                                    <action selector="GoToResultPage:" destination="LFD-5B-9lu" eventType="touchUpInside" id="WFd-WB-n0E"/>
+                                    <action selector="Result:" destination="LFD-5B-9lu" eventType="touchUpInside" id="i6u-5H-PBh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97104328870000001" green="0.90357726810000005" blue="0.80782717469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="HdI-ZL-UFW"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oZW-fY-NIJ"/>
+                    <connections>
+                        <segue destination="SBG-ck-dtg" kind="presentation" identifier="result" id="C9A-23-DVI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKg-Je-m0a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="LFD-5B-9lu" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-2445" y="276"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="d8K-HC-gak">
+            <objects>
+                <viewController id="hpg-jJ-eUh" customClass="ViewController" customModule="urskinappProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dw6-0O-hSG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="identifyingskintypebg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5fR-Cq-Kuh">
+                                <rect key="frame" x="-28" y="-191" width="491" height="1135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aU-fJ-hDo">
+                                <rect key="frame" x="104" y="357" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.45335441830000001" green="0.3307107091" blue="0.25096237659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Oily all over my face"/>
+                                <connections>
+                                    <action selector="AllOily:" destination="hpg-jJ-eUh" eventType="touchUpInside" id="chN-kQ-q9Y"/>
+                                    <action selector="AllOily:" destination="39f-1P-5NG" eventType="touchUpInside" id="edT-B4-Lzx"/>
+                                    <segue destination="xZ8-Ba-kYy" kind="show" id="8yh-Gp-0px"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ad-uW-uXT">
+                                <rect key="frame" x="104" y="427" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Oily on my T-Zone"/>
+                                <connections>
+                                    <action selector="TzoneOily:" destination="39f-1P-5NG" eventType="touchUpInside" id="6yQ-QM-lDa"/>
+                                    <action selector="TzoneOily:" destination="hpg-jJ-eUh" eventType="touchUpInside" id="DDG-ho-1dZ"/>
+                                    <action selector="tzoneOily:" destination="39f-1P-5NG" eventType="touchUpInside" id="ai8-gm-e1i"/>
+                                    <segue destination="xZ8-Ba-kYy" kind="show" id="MWH-e3-znD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7W3-d6-vFL">
+                                <rect key="frame" x="104" y="502" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Feels normal / dry"/>
+                                <connections>
+                                    <action selector="NeverOily:" destination="hpg-jJ-eUh" eventType="touchUpInside" id="DrX-yI-ZPX"/>
+                                    <action selector="NeverOily:" destination="39f-1P-5NG" eventType="touchUpInside" id="UYb-pH-MGY"/>
+                                    <segue destination="xZ8-Ba-kYy" kind="show" id="flh-do-XIM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCd-b7-ZVf">
+                                <rect key="frame" x="66" y="266" width="283" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">When you wakeup, how is 
+your face condition? </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95947402719999997" green="0.90338462590000002" blue="0.81959426400000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="rfO-HE-d1c"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lJ8-9r-c8E"/>
+                </viewController>
+                <exit id="39f-1P-5NG" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2K3-UF-mOc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5563.768115942029" y="255.80357142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="V5L-V9-Zaa">
+            <objects>
+                <viewController id="Toj-Gb-T1A" customClass="ViewController" customModule="urskinappProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aXf-2d-MWO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="identifyingskintypebg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TpK-XR-Gci">
+                                <rect key="frame" x="-38" y="-178" width="491" height="1135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLB-9W-NfH">
+                                <rect key="frame" x="104" y="358" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Brightening"/>
+                                <connections>
+                                    <action selector="Brightening:" destination="Toj-Gb-T1A" eventType="touchUpInside" id="pNp-9w-Dq4"/>
+                                    <action selector="NeverOily:" destination="39f-1P-5NG" eventType="touchUpInside" id="GFa-VX-tEw"/>
+                                    <action selector="NeverOily:" destination="hpg-jJ-eUh" eventType="touchUpInside" id="nPX-zF-M8g"/>
+                                    <segue destination="BPD-GW-UHw" kind="show" id="jT0-GO-yfc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybg-Th-wrM">
+                                <rect key="frame" x="104" y="427" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Dry Skin"/>
+                                <connections>
+                                    <action selector="NeverOily:" destination="39f-1P-5NG" eventType="touchUpInside" id="33K-tk-Cgy"/>
+                                    <action selector="NeverOily:" destination="hpg-jJ-eUh" eventType="touchUpInside" id="aQK-ts-swb"/>
+                                    <action selector="dryskin:" destination="Toj-Gb-T1A" eventType="touchUpInside" id="0c4-Lb-ec6"/>
+                                    <segue destination="BPD-GW-UHw" kind="show" id="pM6-Rw-wb7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is your most skin concern?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yd0-SI-HQ9">
+                                <rect key="frame" x="45" y="261" width="325" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8p-DX-NPZ">
+                                <rect key="frame" x="104" y="493" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Acne"/>
+                                <connections>
+                                    <action selector="Acne:" destination="Toj-Gb-T1A" eventType="touchUpInside" id="WuU-VC-1cD"/>
+                                    <action selector="NeverOily:" destination="39f-1P-5NG" eventType="touchUpInside" id="DQh-dz-OJ3"/>
+                                    <action selector="NeverOily:" destination="hpg-jJ-eUh" eventType="touchUpInside" id="OVC-jV-71O"/>
+                                    <segue destination="BPD-GW-UHw" kind="show" id="Y6c-fL-dTd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="v6Y-jQ-7PA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RS4-QJ-Xdj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="39n-BZ-2WJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3194" y="256"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="al5-jI-Ycn">
+            <objects>
+                <viewController id="xZ8-Ba-kYy" customClass="ViewController" customModule="urskinappProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EeA-qh-giw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="identifyingskintypebg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bZI-ST-pWH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLs-Vh-PQ4">
+                                <rect key="frame" x="50" y="218" width="314" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Do you have any experiences 
+on breakout? </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2F-fh-LXo">
+                                <rect key="frame" x="104" y="334" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Everytime "/>
+                                <connections>
+                                    <action selector="EasilyBreakout:" destination="OMr-PW-JAV" eventType="touchUpInside" id="IHm-kS-Ibb"/>
+                                    <action selector="EasilyBreakout:" destination="xZ8-Ba-kYy" eventType="touchUpInside" id="esO-uG-TPq"/>
+                                    <segue destination="xYe-NF-Fea" kind="show" id="QUa-HC-glC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEe-4d-zM0">
+                                <rect key="frame" x="104" y="399" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="it comes and go"/>
+                                <connections>
+                                    <action selector="SometimesBreakout:" destination="OMr-PW-JAV" eventType="touchUpInside" id="Ckq-Ul-Viz"/>
+                                    <action selector="SometimesBreakout:" destination="xZ8-Ba-kYy" eventType="touchUpInside" id="b0n-sY-Wxf"/>
+                                    <segue destination="xYe-NF-Fea" kind="show" id="lqf-5r-KyL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mf-9j-gHt">
+                                <rect key="frame" x="104" y="467" width="207" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.472771883" green="0.32695579530000002" blue="0.2352720797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Never"/>
+                                <connections>
+                                    <action selector="NeverBreakout:" destination="OMr-PW-JAV" eventType="touchUpInside" id="88k-vs-2zr"/>
+                                    <action selector="NeverBreakout:" destination="xZ8-Ba-kYy" eventType="touchUpInside" id="Ogb-mN-IMM"/>
+                                    <segue destination="xYe-NF-Fea" kind="show" id="1a2-Yo-AbF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95947402719999997" green="0.90338462590000002" blue="0.81959426400000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="c0h-Cx-xHq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="os2-qn-Le4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gQx-lv-TuQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="OMr-PW-JAV" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-4772.463768115942" y="247.76785714285714"/>
+        </scene>
+        <!--ResultViewController-->
+        <scene sceneID="Wma-xV-Wus">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ResultViewController" storyboardName="Main" referencedIdentifier="ResultViewController" id="SBG-ck-dtg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dvz-Xw-iMs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2146" y="752"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="flh-do-XIM"/>
+        <segue reference="oZp-uc-NKC"/>
+        <segue reference="jT0-GO-yfc"/>
+        <segue reference="QUa-HC-glC"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="identifyingskintypebg.jpg" width="198.72000122070312" height="415"/>
+    </resources>
+</document>

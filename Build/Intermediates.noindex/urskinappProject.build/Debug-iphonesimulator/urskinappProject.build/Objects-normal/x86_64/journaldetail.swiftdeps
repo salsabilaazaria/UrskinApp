@@ -1,0 +1,426 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "journaldetail"
+provides-nominal:
+- "16urskinappProject13journaldetailC"
+provides-member:
+- ["16urskinappProject13journaldetailC", ""]
+provides-dynamic-lookup:
+- "badskin"
+- "fine"
+- "fineskin"
+- "great"
+- "greatskin"
+- "lesssix"
+- "moreeight"
+- "sixtoeight"
+- "stress"
+- "stressed"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "UIButton"
+- "UIViewController"
+- "journaldetail"
+depends-member:
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "badskin"]
+- !private ["s7CVarArgP", "brown"]
+- !private ["s7CVarArgP", "fine"]
+- !private ["s7CVarArgP", "fineskin"]
+- !private ["s7CVarArgP", "great"]
+- !private ["s7CVarArgP", "greatskin"]
+- !private ["s7CVarArgP", "lesssix"]
+- !private ["s7CVarArgP", "moreeight"]
+- !private ["s7CVarArgP", "sixtoeight"]
+- !private ["s7CVarArgP", "stress"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "badskin"]
+- !private ["s28CustomDebugStringConvertibleP", "brown"]
+- !private ["s28CustomDebugStringConvertibleP", "fine"]
+- !private ["s28CustomDebugStringConvertibleP", "fineskin"]
+- !private ["s28CustomDebugStringConvertibleP", "great"]
+- !private ["s28CustomDebugStringConvertibleP", "greatskin"]
+- !private ["s28CustomDebugStringConvertibleP", "lesssix"]
+- !private ["s28CustomDebugStringConvertibleP", "moreeight"]
+- !private ["s28CustomDebugStringConvertibleP", "sixtoeight"]
+- !private ["s28CustomDebugStringConvertibleP", "stress"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "backgroundColor"]
+- !private ["s17CustomReflectableP", "brown"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "badskin"]
+- !private ["s23CustomStringConvertibleP", "brown"]
+- !private ["s23CustomStringConvertibleP", "fine"]
+- !private ["s23CustomStringConvertibleP", "fineskin"]
+- !private ["s23CustomStringConvertibleP", "great"]
+- !private ["s23CustomStringConvertibleP", "greatskin"]
+- !private ["s23CustomStringConvertibleP", "lesssix"]
+- !private ["s23CustomStringConvertibleP", "moreeight"]
+- !private ["s23CustomStringConvertibleP", "sixtoeight"]
+- !private ["s23CustomStringConvertibleP", "stress"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "backgroundColor"]
+- !private ["Se", "brown"]
+- !private ["SE", "backgroundColor"]
+- !private ["SE", "brown"]
+- ["SQ", ""]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "badskin"]
+- !private ["SQ", "brown"]
+- !private ["SQ", "fine"]
+- !private ["SQ", "fineskin"]
+- !private ["SQ", "great"]
+- !private ["SQ", "greatskin"]
+- !private ["SQ", "lesssix"]
+- !private ["SQ", "moreeight"]
+- !private ["SQ", "sixtoeight"]
+- !private ["SQ", "stress"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
+- !private ["s23ExpressibleByNilLiteralP", "brown"]
+- ["SH", ""]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "badskin"]
+- !private ["SH", "brown"]
+- !private ["SH", "fine"]
+- !private ["SH", "fineskin"]
+- !private ["SH", "great"]
+- !private ["SH", "greatskin"]
+- !private ["SH", "lesssix"]
+- !private ["SH", "moreeight"]
+- !private ["SH", "sixtoeight"]
+- !private ["SH", "stress"]
+- !private ["SH", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "badskin"]
+- !private ["So8NSCodingP", "brown"]
+- !private ["So8NSCodingP", "fine"]
+- !private ["So8NSCodingP", "fineskin"]
+- !private ["So8NSCodingP", "great"]
+- !private ["So8NSCodingP", "greatskin"]
+- !private ["So8NSCodingP", "lesssix"]
+- !private ["So8NSCodingP", "moreeight"]
+- !private ["So8NSCodingP", "sixtoeight"]
+- !private ["So8NSCodingP", "stress"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "brown"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "badskin"]
+- !private ["So26NSExtensionRequestHandlingP", "fine"]
+- !private ["So26NSExtensionRequestHandlingP", "fineskin"]
+- !private ["So26NSExtensionRequestHandlingP", "great"]
+- !private ["So26NSExtensionRequestHandlingP", "greatskin"]
+- !private ["So26NSExtensionRequestHandlingP", "lesssix"]
+- !private ["So26NSExtensionRequestHandlingP", "moreeight"]
+- !private ["So26NSExtensionRequestHandlingP", "sixtoeight"]
+- !private ["So26NSExtensionRequestHandlingP", "stress"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "brown"]
+- !private ["So21NSItemProviderWritingP", "brown"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "badskin"]
+- !private ["So8NSObjectC", "brown"]
+- ["So8NSObjectC", "fine"]
+- ["So8NSObjectC", "fineskin"]
+- ["So8NSObjectC", "great"]
+- ["So8NSObjectC", "greatskin"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lesssix"]
+- ["So8NSObjectC", "moreeight"]
+- ["So8NSObjectC", "sixtoeight"]
+- ["So8NSObjectC", "stress"]
+- ["So8NSObjectC", "stressed"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "badskin"]
+- !private ["So8NSObjectP", "brown"]
+- !private ["So8NSObjectP", "fine"]
+- !private ["So8NSObjectP", "fineskin"]
+- !private ["So8NSObjectP", "great"]
+- !private ["So8NSObjectP", "greatskin"]
+- !private ["So8NSObjectP", "lesssix"]
+- !private ["So8NSObjectP", "moreeight"]
+- !private ["So8NSObjectP", "sixtoeight"]
+- !private ["So8NSObjectP", "stress"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "brown"]
+- !private ["Sq", "backgroundColor"]
+- !private ["Sq", "brown"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "badskin"]
+- !private ["So21UIAppearanceContainerP", "fine"]
+- !private ["So21UIAppearanceContainerP", "fineskin"]
+- !private ["So21UIAppearanceContainerP", "great"]
+- !private ["So21UIAppearanceContainerP", "greatskin"]
+- !private ["So21UIAppearanceContainerP", "lesssix"]
+- !private ["So21UIAppearanceContainerP", "moreeight"]
+- !private ["So21UIAppearanceContainerP", "sixtoeight"]
+- !private ["So21UIAppearanceContainerP", "stress"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So8UIButtonC", "backgroundColor"]
+- !private ["So7UIColorC", "brown"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "badskin"]
+- !private ["So18UIContentContainerP", "fine"]
+- !private ["So18UIContentContainerP", "fineskin"]
+- !private ["So18UIContentContainerP", "great"]
+- !private ["So18UIContentContainerP", "greatskin"]
+- !private ["So18UIContentContainerP", "lesssix"]
+- !private ["So18UIContentContainerP", "moreeight"]
+- !private ["So18UIContentContainerP", "sixtoeight"]
+- !private ["So18UIContentContainerP", "stress"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So9UIControlC", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "badskin"]
+- !private ["So18UIFocusEnvironmentP", "fine"]
+- !private ["So18UIFocusEnvironmentP", "fineskin"]
+- !private ["So18UIFocusEnvironmentP", "great"]
+- !private ["So18UIFocusEnvironmentP", "greatskin"]
+- !private ["So18UIFocusEnvironmentP", "lesssix"]
+- !private ["So18UIFocusEnvironmentP", "moreeight"]
+- !private ["So18UIFocusEnvironmentP", "sixtoeight"]
+- !private ["So18UIFocusEnvironmentP", "stress"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "badskin"]
+- !private ["So30UIPasteConfigurationSupportingP", "fine"]
+- !private ["So30UIPasteConfigurationSupportingP", "fineskin"]
+- !private ["So30UIPasteConfigurationSupportingP", "great"]
+- !private ["So30UIPasteConfigurationSupportingP", "greatskin"]
+- !private ["So30UIPasteConfigurationSupportingP", "lesssix"]
+- !private ["So30UIPasteConfigurationSupportingP", "moreeight"]
+- !private ["So30UIPasteConfigurationSupportingP", "sixtoeight"]
+- !private ["So30UIPasteConfigurationSupportingP", "stress"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "badskin"]
+- ["So11UIResponderC", "fine"]
+- ["So11UIResponderC", "fineskin"]
+- ["So11UIResponderC", "great"]
+- ["So11UIResponderC", "greatskin"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "lesssix"]
+- ["So11UIResponderC", "moreeight"]
+- ["So11UIResponderC", "sixtoeight"]
+- ["So11UIResponderC", "stress"]
+- ["So11UIResponderC", "stressed"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "badskin"]
+- !private ["So30UIResponderStandardEditActionsP", "fine"]
+- !private ["So30UIResponderStandardEditActionsP", "fineskin"]
+- !private ["So30UIResponderStandardEditActionsP", "great"]
+- !private ["So30UIResponderStandardEditActionsP", "greatskin"]
+- !private ["So30UIResponderStandardEditActionsP", "lesssix"]
+- !private ["So30UIResponderStandardEditActionsP", "moreeight"]
+- !private ["So30UIResponderStandardEditActionsP", "sixtoeight"]
+- !private ["So30UIResponderStandardEditActionsP", "stress"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "badskin"]
+- !private ["So16UIStateRestoringP", "fine"]
+- !private ["So16UIStateRestoringP", "fineskin"]
+- !private ["So16UIStateRestoringP", "great"]
+- !private ["So16UIStateRestoringP", "greatskin"]
+- !private ["So16UIStateRestoringP", "lesssix"]
+- !private ["So16UIStateRestoringP", "moreeight"]
+- !private ["So16UIStateRestoringP", "sixtoeight"]
+- !private ["So16UIStateRestoringP", "stress"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "badskin"]
+- !private ["So18UITraitEnvironmentP", "fine"]
+- !private ["So18UITraitEnvironmentP", "fineskin"]
+- !private ["So18UITraitEnvironmentP", "great"]
+- !private ["So18UITraitEnvironmentP", "greatskin"]
+- !private ["So18UITraitEnvironmentP", "lesssix"]
+- !private ["So18UITraitEnvironmentP", "moreeight"]
+- !private ["So18UITraitEnvironmentP", "sixtoeight"]
+- !private ["So18UITraitEnvironmentP", "stress"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "badskin"]
+- !private ["So23UIUserActivityRestoringP", "fine"]
+- !private ["So23UIUserActivityRestoringP", "fineskin"]
+- !private ["So23UIUserActivityRestoringP", "great"]
+- !private ["So23UIUserActivityRestoringP", "greatskin"]
+- !private ["So23UIUserActivityRestoringP", "lesssix"]
+- !private ["So23UIUserActivityRestoringP", "moreeight"]
+- !private ["So23UIUserActivityRestoringP", "sixtoeight"]
+- !private ["So23UIUserActivityRestoringP", "stress"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "badskin"]
+- ["So16UIViewControllerC", "fine"]
+- ["So16UIViewControllerC", "fineskin"]
+- ["So16UIViewControllerC", "great"]
+- ["So16UIViewControllerC", "greatskin"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "lesssix"]
+- ["So16UIViewControllerC", "moreeight"]
+- ["So16UIViewControllerC", "sixtoeight"]
+- ["So16UIViewControllerC", "stress"]
+- ["So16UIViewControllerC", "stressed"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s26_ExpressibleByColorLiteralP", "brown"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "badskin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "brown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fine"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fineskin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "great"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "greatskin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lesssix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "moreeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sixtoeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "badskin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "brown"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fine"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fineskin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "great"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "greatskin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lesssix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "moreeight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sixtoeight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stress"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "brown"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- ["16urskinappProject13journaldetailC", "UIButton"]
+- ["16urskinappProject13journaldetailC", "badskin"]
+- ["16urskinappProject13journaldetailC", "deinit"]
+- ["16urskinappProject13journaldetailC", "fine"]
+- ["16urskinappProject13journaldetailC", "fineskin"]
+- ["16urskinappProject13journaldetailC", "great"]
+- ["16urskinappProject13journaldetailC", "greatskin"]
+- ["16urskinappProject13journaldetailC", "init"]
+- ["16urskinappProject13journaldetailC", "lesssix"]
+- ["16urskinappProject13journaldetailC", "moreeight"]
+- ["16urskinappProject13journaldetailC", "sixtoeight"]
+- ["16urskinappProject13journaldetailC", "stress"]
+- ["16urskinappProject13journaldetailC", "stressed"]
+- ["16urskinappProject13journaldetailC", "viewDidLoad"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- "16urskinappProject13journaldetailC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreML.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0d45ee627e93b1b97b0da45a6fccfe32"
